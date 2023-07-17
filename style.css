@@ -11,7 +11,7 @@
 
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -191,6 +191,7 @@ section{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 3rem;
 }
 
 
@@ -466,5 +467,15 @@ footer {
 
 #contact .image-wrapper .github-icon {
     width: 76px;
-    height: 76px; 
+    height: 76px;
 }
+
+
+
+
+@media (max-width: 800px) and (orientation: landscape) {
+    #contact {
+        min-height: 80vh;
+    }
+}
+
